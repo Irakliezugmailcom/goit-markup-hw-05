@@ -740,7 +740,7 @@ img {
     border: transparent;
     background-color: #F5F4FA;
     font-size: 16px;
-    line-height: calec(26 / 16);
+    line-height: calc(26 / 16);
     text-align: center;
     letter-spacing: 0.03em;
     border-radius: 4px;
