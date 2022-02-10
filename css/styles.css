@@ -554,15 +554,20 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: color 250ms var(--cubic);
+    transition: color 250ms var(--cubic), 
+        border-color 250ms var(--cubic);
 }
 
-.permanent-clients-link:hover, .permanent-clients-link:focus {
-    border: 1px solid var(--accent-color);
+.permanent-clients-link:hover {
+    border-color: var(--accent-color);
 }
 
 .permanent-clients-link:hover .permanent-clients-svg {
     fill: var(--accent-color);
+}
+
+.permanent-clients-link:focus {
+    border-color: var(--accent-color);
 }
 
 .permanent-clients-link:focus .permanent-clients-svg {
